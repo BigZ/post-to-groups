@@ -1,4 +1,6 @@
-
+gruops.txt
+image.txt
+message.txt
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
