@@ -108,8 +108,9 @@ class PostCommand extends Command
                 } catch (\Exception $exception) {
 
                     $io->error('FAIL.');
-                    dump($exception);
+                    dump($exception->getMessage());
                     $client->quit();
+                    return 0;
                 }
             }
         }
